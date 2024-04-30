@@ -27,8 +27,14 @@ class Program
         // question.CanCompleteCircuit(new int[] { 1, 2, 3, 4, 5 }, new int[] { 3, 4, 5, 1, 2 });
 
         //Q704
-        var question = new Q704();
-        var result = question.Search(new int[] { -1, 0, 3, 5, 9, 12 }, 9);
+        // var question = new Q704();
+        // var result = question.Search(new int[] { -1, 0, 3, 5, 9, 12 }, 9);
+
+        // Console.WriteLine($"Result is: {result}");
+
+        //Q027
+        var question = new Q027();
+        var result = question.RemoveElement1(new int[] { 0, 1, 2, 2, 3, 0, 4, 2 }, 2);
 
         Console.WriteLine($"Result is: {result}");
     }
