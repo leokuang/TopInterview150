@@ -1,6 +1,4 @@
-﻿using Questions.ArrayAndString;
-
-namespace Questions;
+﻿namespace Questions;
 
 class Program
 {
