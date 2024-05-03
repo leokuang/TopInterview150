@@ -33,8 +33,14 @@ class Program
         // Console.WriteLine($"Result is: {result}");
 
         //Q027
-        var question = new Q027();
-        var result = question.RemoveElement1(new int[] { 0, 1, 2, 2, 3, 0, 4, 2 }, 2);
+        // var question = new Q027();
+        // var result = question.RemoveElement1(new int[] { 0, 1, 2, 2, 3, 0, 4, 2 }, 2);
+
+        // Console.WriteLine($"Result is: {result}");
+
+        //Q977
+        var question = new Q977();
+        var result = question.SortedSquares1(new int[] { -7, -3, 2, 3, 11 });
 
         Console.WriteLine($"Result is: {result}");
     }
